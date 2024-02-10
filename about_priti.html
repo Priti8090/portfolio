@@ -1,0 +1,123 @@
+<html>
+    <title>About section</title>
+    <style>
+                 body {
+    margin: 0%;
+       background-size:100vw 160vh;
+      
+      background-image:url('https://t3.ftcdn.net/jpg/06/28/25/58/240_F_628255842_400SnPT80xAG3w4LCZY9UaYK6KJf5A5B.jpg');
+      background-repeat:no-repeat ;
+                 }
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav-links{
+      background-color: rgba(0, 0, 0, 0.589);
+      display:flex;
+     gap: 3vw;
+     font-size: 2.5vw;
+     font-weight: bold;
+     font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+}
+.nav_items{
+    padding: 1.3vw;
+}
+    .nav_items a{
+       
+        color:white;
+        display: block;
+    }
+    .nav_items:hover{
+        background-color: rgba(0, 0, 0, 0.911);
+        transition: 1s;
+       
+    }
+    .nav_items a:hover{
+     color: yellow;
+       
+    }
+   
+
+h1
+{ margin-top: 12px;
+    font-size:8vw;
+    margin-left: 50px;
+    margin-bottom: 1%;
+}
+#photo_container{
+    background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.911),orange,yellow,rgb(2, 248, 2),blue,rgb(253, 11, 253));
+    height: 24vw;
+    width: 24vw;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 2px solid rgb(7, 7, 7);
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+}
+#photo{
+    background-image:url('priti2.jpg');
+    position: absolute;
+    background-size: cover;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    border-radius: 50%;
+    border: 2px solid rgba(63, 18, 18, 0.685);
+    height: 20vw;
+    width: 20vw;
+    left: 1.25vw;
+    top: 1.25vw;
+}
+#p
+{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 3vw;
+    margin-left: 4%;
+    margin-top: 0%;
+}
+
+    </style>
+<body>
+             <div class="nav-links">
+             <div class="nav_items"><a style="text-decoration: none;" href="home.priti.html" target="_blank">Home</a></div>
+             <div class="nav_items"><a style="text-decoration: none;color:yellow;">About</a></div>
+             <div class="nav_items"><a style="text-decoration: none;" href="service_priti.html">Services</a></div>
+             <div class="nav_items"><a style="text-decoration: none;" href="priti.contect.html" target="_blank">Contact</a></div>
+             </div>
+  <div id="photo_container">
+    <div id="photo" ></div>
+  </div>
+  <h1> Hii, I'm <span style="color:white">Priti </span> </h1>
+    <div id="p" >
+        <div>Currently I'm a learner  at <span style="color: green;">Kashi Institute </span></div>
+        <div><span style="color: green;">of Technology</span> , Mirzamurad ,Varanasi .</div>
+        <div>I completed <span style="color: green;"> C language, HTML, CSS</span> .</div>
+        <div>My social networks are available in <span style="color: green;">contact</span> , </div>
+        <div>click on it and go through ...</div>
+        <br>
+        <div>Email Id : <span style="color: green;">pritipatel34635@gmail.com</span></div>
+        <div>Contact No. : <span style="color: green;">9585837520</span></div>
+        </div>
+</body>
+</html>         
